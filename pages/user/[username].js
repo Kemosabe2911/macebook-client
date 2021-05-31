@@ -2,11 +2,14 @@ import PropTypes from 'prop-types'
 import Layout from '../../components/Layout/layout'
 import SEO from '../../components/seo'
 import { clientRedirect, serverRedirect } from '../../lib/redirect'
+import styles from '../../styles/pages/profile.module.scss'
+
 
 const UserProfile = ({ user }) => {
     return (
         <Layout>
             <SEO title={`${user.name} | Macebook`} />
+            <div className={styles.container}>
             <img src={user.picture} alt="User"></img>
             <h1>{user.name}</h1>
             <address>
@@ -14,6 +17,7 @@ const UserProfile = ({ user }) => {
                 <p>{user.phone}</p>
                 <p>{user.location}</p>
             </address>
+            </div>
         </Layout>
     )
 }
