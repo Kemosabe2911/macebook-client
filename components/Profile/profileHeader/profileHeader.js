@@ -14,6 +14,10 @@ const profileHeader = ({ BGImg, UserImg, Name, Location, Position }) => {
                     <p className={styles.userPosition}>{Position}</p>
                     <p className={styles.userLocation}>{Location}</p>
                 </div>
+                <div className={styles.userButtons}>
+                    <button className={styles.msgButton}>Message</button>
+                    <button className={styles.connectButton}>Connect</button>
+                </div>
             </div>
         </div>
     )

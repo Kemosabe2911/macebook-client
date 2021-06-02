@@ -45,5 +45,30 @@
             font-weight: 300;
         }
     }
+    .userButtons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        left: 480px;
+        button{
+            padding: 10px;
+            margin: 0px 10px;
+            font-weight: 500;
+            border-radius: 20px;
+            cursor: pointer;
+            width: 130px;
+            &.msgButton{
+                color: #000000;
+                background: #ffffff;
+                border: 1px solid #000000;
+            }
+            &.connectButton{
+                color: #ffffff;
+                background: #000000;
+                border: 1px solid #000000;
+            }
+        }
+    }
 }
 

@@ -25,7 +25,7 @@ const users = [
         email: 'charlotte.li@example.com',
         phone: '904-999-8683',
         picture: 'https://randomuser.me/api/portraits/med/women/29.jpg',
-        cover: 'https://randomuser.me/api/portraits/med/women/29.jpg',
+        cover: 'https://www.incimages.com/uploaded_files/image/1920x1080/getty_509107562_2000133320009280346_351827.jpg',
         username: 'charlotteli',
         password: 'charlotteli'
     },
