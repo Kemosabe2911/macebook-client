@@ -9,11 +9,11 @@ const profileHeader = ({ BGImg, UserImg, Name, Location, Position }) => {
             </div>
             <div className={styles.userHeader}>
                 <img src={UserImg} alt="user"></img>
-                <address>
-                    <p>{Name}</p>
-                    <p>{Position}</p>
-                    <p>{Location}</p>
-                </address>
+                <div className={styles.userDetails}>
+                    <h2>{Name}</h2>
+                    <p className={styles.userPosition}>{Position}</p>
+                    <p className={styles.userLocation}>{Location}</p>
+                </div>
             </div>
         </div>
     )

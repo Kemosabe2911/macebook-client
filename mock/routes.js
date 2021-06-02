@@ -14,6 +14,7 @@ const users = [
         email: 'ismet.david@example.com',
         phone: '075 626 53 56',
         picture: 'https://randomuser.me/api/portraits/med/men/4.jpg',
+        cover: 'https://www.incimages.com/uploaded_files/image/1920x1080/getty_509107562_2000133320009280346_351827.jpg',
         username: 'ismetdavid',
         password: 'ismetdavid'
     },
@@ -24,6 +25,7 @@ const users = [
         email: 'charlotte.li@example.com',
         phone: '904-999-8683',
         picture: 'https://randomuser.me/api/portraits/med/women/29.jpg',
+        cover: 'https://randomuser.me/api/portraits/med/women/29.jpg',
         username: 'charlotteli',
         password: 'charlotteli'
     },
@@ -34,6 +36,7 @@ const users = [
         email: 'lauren.hoffman@example.com',
         phone: '031-152-9047',
         picture: 'https://randomuser.me/api/portraits/med/women/62.jpg',
+        cover: 'https://www.incimages.com/uploaded_files/image/1920x1080/getty_509107562_2000133320009280346_351827.jpg',
         username: 'laurenhoffman',
         password: 'laurenhoffman'
     }

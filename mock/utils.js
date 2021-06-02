@@ -9,7 +9,8 @@ exports.getUserData = (user) => {
         email: user.email,
         phone: user.phone,
         picture: user.picture,
-        location: user.location
+        location: user.location,
+        cover: user.cover
     }
 }
 
