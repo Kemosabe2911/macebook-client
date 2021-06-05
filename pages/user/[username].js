@@ -17,10 +17,11 @@ const UserProfile = ({ user }) => {
                     UserImg={user.picture} 
                     Name={user.name}
                     Location={user.location}
-                    Position={user.name}
+                    Position={user.position}
+                    Connections={user.connections}
+                    Batch= {user.batch}
+                    Branch= {user.branch}
                 />
-                <img src={user.picture} alt="User"></img>
-                <img src={user.cover} alt="User"></img>
                 <h1>{user.name}</h1>
                 <address>
                     <p>{user.email}</p>

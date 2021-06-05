@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './profileHeader.module.scss'
 
-const profileHeader = ({ BGImg, UserImg, Name, Location, Position }) => {
+const profileHeader = ({ BGImg, UserImg, Name, Location, Position, Connections, Batch, Branch }) => {
     return (
         <div className={styles.header}>
             <div className={styles.bgimgContainer}>
@@ -12,7 +12,8 @@ const profileHeader = ({ BGImg, UserImg, Name, Location, Position }) => {
                 <div className={styles.userDetails}>
                     <h2>{Name}</h2>
                     <p className={styles.userPosition}>{Position}</p>
-                    <p className={styles.userLocation}>{Location}</p>
+                    <p className={styles.userLocation}>{Location} . Batch of '{Batch} . {Branch}</p>
+                    <p className={styles.userConnections}>{Connections} Connections</p>
                 </div>
                 <div className={styles.userButtons}>
                     <button className={styles.msgButton}>Message</button>

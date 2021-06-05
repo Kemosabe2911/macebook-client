@@ -10,7 +10,11 @@ exports.getUserData = (user) => {
         phone: user.phone,
         picture: user.picture,
         location: user.location,
-        cover: user.cover
+        cover: user.cover,
+        connections: user.connections,
+        batch: user.batch,
+        branch: user.branch,
+        position: user.position
     }
 }
 

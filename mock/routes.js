@@ -16,7 +16,11 @@ const users = [
         picture: 'https://randomuser.me/api/portraits/med/men/4.jpg',
         cover: 'https://www.incimages.com/uploaded_files/image/1920x1080/getty_509107562_2000133320009280346_351827.jpg',
         username: 'ismetdavid',
-        password: 'ismetdavid'
+        password: 'ismetdavid',
+        connections: 1000,
+        batch: 14,
+        branch: 'CSE',
+        position: 'SENIOR SOFTWARE ENGINEER AT INFOSYS'
     },
     {
         id: 2,
@@ -27,7 +31,11 @@ const users = [
         picture: 'https://randomuser.me/api/portraits/med/women/29.jpg',
         cover: 'https://www.incimages.com/uploaded_files/image/1920x1080/getty_509107562_2000133320009280346_351827.jpg',
         username: 'charlotteli',
-        password: 'charlotteli'
+        password: 'charlotteli',
+        connections: 2000,
+        batch: 14,
+        branch: 'CSE',
+        position: 'SENIOR SOFTWARE ENGINEER AT INFOSYS'
     },
     {
         id: 3,
@@ -38,7 +46,11 @@ const users = [
         picture: 'https://randomuser.me/api/portraits/med/women/62.jpg',
         cover: 'https://www.incimages.com/uploaded_files/image/1920x1080/getty_509107562_2000133320009280346_351827.jpg',
         username: 'laurenhoffman',
-        password: 'laurenhoffman'
+        password: 'laurenhoffman',
+        connections: 3000,
+        batch: 14,
+        branch: 'CSE',
+        position: 'SENIOR SOFTWARE ENGINEER AT INFOSYS'
     }
 ]
 
