@@ -55,8 +55,9 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        position: relative;
-        left: 45%;
+        position: absolute;
+        right: 0%;
+        top: 50%;
         button{
             padding: 10px;
             margin: 0px 10px;
