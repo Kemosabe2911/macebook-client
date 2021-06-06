@@ -36,7 +36,7 @@
         padding: 0;
         line-height: 1;
         position: relative;
-        left: 25%;
+        left: 20%;
         h2{
             font-weight: bolder;
         }
@@ -79,3 +79,41 @@
     }
 }
 
+@media(max-width: 768px){
+    .bgimgContainer{
+        height: 150px;
+    }
+    .userHeader{
+        img{
+            width: 130px;
+            height: 130px;
+            top: -40%;
+        }
+        .userDetails{
+            left: 40%;
+            h2{
+                font-size: 18px;   
+            }
+            .userPosition{
+                font-size: 14px;
+                font-weight: 400;
+            }
+            .userLocation{
+                font-size: 14px;
+                font-weight: 400;
+            }
+            .userConnections{
+                font-size: 13px;
+                font-weight: 400;
+            }
+        }
+        .userButtons{
+            top: 90%;
+            right: 10%;
+            button{
+                width: 100px;
+                font-size: 15px;
+            }
+        }
+    }
+}

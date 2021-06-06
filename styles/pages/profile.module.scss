@@ -1,3 +1,10 @@
 .container{
-    margin: 2% 10%;
+    margin: 2% 5%;
+}
+
+
+@media( max-width: 768px){
+    .container{
+        margin: 2%;
+    }
 }
