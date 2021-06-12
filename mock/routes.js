@@ -20,7 +20,8 @@ const users = [
         connections: 1000,
         batch: 14,
         branch: 'CSE',
-        position: 'SENIOR SOFTWARE ENGINEER AT INFOSYS'
+        position: 'SENIOR SOFTWARE ENGINEER AT INFOSYS',
+        about: 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.'
     },
     {
         id: 2,
@@ -35,7 +36,12 @@ const users = [
         connections: 2000,
         batch: 14,
         branch: 'CSE',
-        position: 'SENIOR SOFTWARE ENGINEER AT INFOSYS'
+        position: 'SENIOR SOFTWARE ENGINEER AT INFOSYS',
+        about: 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.',
+        skills: [
+            {"1" : 'html'},
+            {"2": 'css'}
+        ]
     },
     {
         id: 3,
@@ -50,7 +56,8 @@ const users = [
         connections: 3000,
         batch: 14,
         branch: 'CSE',
-        position: 'SENIOR SOFTWARE ENGINEER AT INFOSYS'
+        position: 'SENIOR SOFTWARE ENGINEER AT INFOSYS',
+        about: 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.'
     }
 ]
 

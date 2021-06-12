@@ -14,7 +14,8 @@ exports.getUserData = (user) => {
         connections: user.connections,
         batch: user.batch,
         branch: user.branch,
-        position: user.position
+        position: user.position,
+        about: user.about
     }
 }
 

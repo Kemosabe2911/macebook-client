@@ -4,6 +4,7 @@ import SEO from '../../components/seo'
 import { clientRedirect, serverRedirect } from '../../lib/redirect'
 import styles from '../../styles/pages/profile.module.scss'
 import ProfileHeader from '../../components/Profile/profileHeader/profileHeader'
+import ProfileLeftPanel from '../../components/Profile/profileLeftPanel/profileLeftPanel'
 
 
 const UserProfile = ({ user }) => {
@@ -22,12 +23,22 @@ const UserProfile = ({ user }) => {
                     Batch= {user.batch}
                     Branch= {user.branch}
                 />
-                <h1>{user.name}</h1>
-                <address>
-                    <p>{user.email}</p>
-                    <p>{user.phone}</p>
-                    <p>{user.location}</p>
-                </address>
+                <div className="row">
+                    <div className="col-4">
+                        <ProfileLeftPanel
+                            About={user.about}
+                            Skills={user.skills}
+                        />
+                    </div>
+                    <div className="col-8">
+                        <h1>{user.name}</h1>
+                        <address>
+                            <p>{user.email}</p>
+                            <p>{user.phone}</p>
+                            <p>{user.location}</p>
+                        </address>
+                    </div>
+                </div>
             </div>
         </Layout>
     )
