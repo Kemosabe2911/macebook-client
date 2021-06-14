@@ -9,8 +9,12 @@ export default function profileLeftPanel( {About, Skills}) {
                 <h3>About</h3>
                 <p>{About}</p>
             </div>
-            <h3>{About}</h3>
-            <p>Hello</p>
+            <div className={styles.aboutContainer}>
+                <h3>Skills</h3>
+            </div>
+            <div className={styles.aboutContainer}>
+                <h3>PEOPLE YOU MAY KNOW</h3>
+            </div>
         </div>
     )
 }

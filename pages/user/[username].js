@@ -31,6 +31,12 @@ const UserProfile = ({ user }) => {
                         />
                     </div>
                     <div className="col-8">
+                        <div className="row">
+                            Posts
+                        </div>
+                        <div className="row">
+                            Experience
+                        </div>
                         <h1>{user.name}</h1>
                         <address>
                             <p>{user.email}</p>

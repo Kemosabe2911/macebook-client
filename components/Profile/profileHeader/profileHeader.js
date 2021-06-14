@@ -16,8 +16,8 @@ const profileHeader = ({ BGImg, UserImg, Name, Location, Position, Connections, 
                     <p className={styles.userConnections}>{Connections} Connections</p>
                 </div>
                 <div className={styles.userButtons}>
-                    <button className={styles.msgButton}>Message</button>
-                    <button className={styles.connectButton}>Connect</button>
+                    <button className={styles.msgButton}>Settings</button>
+                    <button className={styles.connectButton}>Edit Profile</button>
                 </div>
             </div>
         </div>
