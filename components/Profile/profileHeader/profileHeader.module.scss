@@ -17,6 +17,20 @@
     }
 }
 
+.imgContainer{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        position: absolute;
+        top: -50%;
+        left: 25%;
+    }
+}
+
 .userHeader{
     width: 100%;
     height: 150px;
