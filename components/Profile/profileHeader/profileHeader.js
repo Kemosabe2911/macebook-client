@@ -13,8 +13,22 @@ const profileHeader = ({ BGImg, UserImg, Name, Location, Position, Connections, 
                             <img src={UserImg} alt="user"></img>
                         </div>
                     </div>
-                    <div className="col-5">World</div>
-                    <div className="col-4">css</div>
+                    <div className="col-5">
+                        <h2>{Name}</h2>
+                        <address className="d-flex flex-column">
+                            <span>{Position}</span>
+                            <span>{Location} . Batch of '{Batch} . {Branch}</span>
+                            <span className={styles.userConnections}>{Connections} Connections</span>
+                        </address>
+                    </div>
+                    <div className="col-4 position-relative align-middle">
+                        <div className={styles.btnContainer}>
+                            <div className={styles.userButtons}>
+                                <button className={styles.msgButton}>Settings</button>
+                                <button className={styles.connectButton}>Edit Profile</button>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
     )

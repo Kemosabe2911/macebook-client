@@ -31,6 +31,40 @@
     }
 }
 
+.userConnections{
+    color: red;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.btnContainer{
+    position: relative;
+    .userButtons{
+        button{
+            padding: 10px;
+            margin: 0px 10px;
+            font-weight: 500;
+            border-radius: 20px;
+            cursor: pointer;
+            width: 130px;          
+            &.msgButton{
+                color: #000000;
+                background: #ffffff;
+                border: 1.5px solid #000000;
+                position: absolute;
+                right: 50%;
+            }
+            &.connectButton{
+                color: #ffffff;
+                background: #000000;
+                border: 1.5px solid #000000;
+                position: absolute;
+                right: 0%;
+            }
+        }
+    }
+}
+/*
 .userHeader{
     width: 100%;
     height: 150px;
@@ -93,6 +127,10 @@
     }
 }
 
+}
+
+*/
+/*
 @media(max-width: 768px){
     .bgimgContainer{
         height: 150px;
@@ -131,3 +169,4 @@
         }
     }
 }
+*/
